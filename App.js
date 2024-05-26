@@ -5,10 +5,10 @@ export default function App() {
   return (
     <View style={{ 
       flex: 1,
-      backgroundColor: 'yellow', // Change background color here
-      alignItems: 'center',
-      justifyContent: 'center'}}>
-      <Text>Open up App.js to start working on your app!</Text>
+      backgroundColor: "yellow", // Change background color here
+      alignItems: "center",
+      justifyContent: "center"}}>
+      <Text style={{ fontSize: 24}}>My name is <Text style={{fontWeight: "bold"}}>Sophia Nhyira Yawson</Text></Text>
       <StatusBar style="auto" />
     </View>
   );
